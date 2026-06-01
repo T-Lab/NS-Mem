@@ -1,0 +1,12 @@
+{
+  "topk": 2,
+  "threshold": 0.05,
+  "threshold_baseline": 0.5,
+  "total_round": 5,
+  "batch_size": 4,
+  "ablation_mode": null,
+  "temperature": 0.6,
+  "top_p": 0.95,
+  "max_tokens": 8192,
+  "eval_timeout": 30
+}

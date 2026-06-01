@@ -1,0 +1,65 @@
+# ============================================
+# NSTF .gitignore
+# ============================================
+
+# ====================
+# Large files (models and graph data)
+# ====================
+models/
+/data/
+
+# ====================
+# Sensitive configuration
+# ====================
+.env
+configs/api_config.json
+
+# ====================
+# Python cache
+# ====================
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+*.egg-info/
+.eggs/
+*.egg
+
+# ====================
+# Experiment results and logs
+# ====================
+results/
+logs/
+experiments/results/
+experiments/*/results/
+*.log
+
+# ====================
+# Temporary files
+# ====================
+*.tmp
+*.temp
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+
+# ====================
+# Backup files
+# ====================
+*.backup*
+*.bak
+
+# ====================
+# IDE and editors
+# ====================
+.idea/
+.vscode/
+*.sublime-*
+
+# ====================
+# Jupyter Notebook
+# ====================
+.ipynb_checkpoints/
